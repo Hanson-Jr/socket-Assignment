@@ -11,12 +11,14 @@ body{
   justify-content: center;
   align-items: center;
   background-color: #ebebeb;
+  /* background-image: url(Black\ Bold\ Modern\ Vegetable\ Business\ Card\ Food.jpg); */
 }
 
 .title{
   margin: 20px 0;
   font-weight: 800;
   text-align: center;
+  color: #000;
 }
 
 
@@ -25,6 +27,7 @@ body{
   border-radius: 25px;
   overflow: hidden;
   width: 500px;
+  /* background-color: yellow; */
 }
 
 .name{
@@ -33,6 +36,9 @@ body{
   font-weight: 800;
   padding: 10px 10px;
   color: #7e7e7e;
+  /* background-color: red; */
+  /* background-image: url('blue-pink-20-pct.png');
+  background-size: cover ; */
  }
 
  .message-left{
@@ -83,6 +89,9 @@ word-wrap: break-word
   height: 500px;
   overflow-y: scroll;
   overflow-x: hidden;
+  background-color: red;
+  background-image: url(restaurant-menu-design-on.jpg);
+  background-size: cover;
 }
 
 .message-form{
