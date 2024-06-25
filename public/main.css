@@ -89,7 +89,6 @@ word-wrap: break-word
   height: 500px;
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: red;
   background-image: url(restaurant-menu-design-on.jpg);
   background-size: cover;
 }
@@ -141,3 +140,36 @@ button:hover{
   padding: 8px;
 }
 
+
+
+@media (max-width: 600px) {
+  .main {
+    width: 95%;
+  }
+
+  .message-left, .message-right {
+    max-width: 90%;
+    font-size: 14px;
+    padding: 8px;
+    margin: 5px;
+  }
+
+  .message-container {
+    width: 95%;
+    height: 400px;
+  }
+
+  .message-form {
+    width: 95%;
+  }
+
+  .message-input {
+    height: 35px;
+    font-size: 14px;
+  }
+
+  .send-button {
+    height: 35px;
+    font-size: 14px;
+  }
+}
