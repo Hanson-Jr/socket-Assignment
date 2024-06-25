@@ -100,22 +100,22 @@ io.on('connection', (socket)=>{
       
       case "10":   
       currentOrder.push({name: 'Rice', price: 1500});
-      response = "Rice have been added to you order.";
+      response = "Rice have been added to your order.";
 
       break;
       case "20" :
       currentOrder.push({name: 'Bean', price: 1000});
-      response = "Bean have been added to you order.";
+      response = "Bean have been added to your order.";
 
       break;
       case "40":
       currentOrder.push({name: 'Stew', price: 400});
-      response = "Stew have been added to you order.";
+      response = "Stew have been added to your order.";
 
       break;
       case "12":
         currentOrder.push({name: 'Indomie', price: 900});
-        response = "Indomie have been added to you order.";
+        response = "Indomie have been added to your order.";
 
         break;
         case "21":
@@ -125,32 +125,32 @@ io.on('connection', (socket)=>{
           break;
           case "7":
             currentOrder.push({name: 'Vegetable-soup', price: 1500});
-            response = "Vegetable-soup have been added to you order.";
+            response = "Vegetable-soup have been added to your order.";
 
             break;
             case "22":
               currentOrder.push({name: 'Egusi', price: 1000});
-              response = "Egusi have been added to you order.";
+              response = "Egusi have been added to your order.";
   
               break;
               case "16":
                 currentOrder.push({name: 'Beef', price: 2100});
-                response = "Beef have been added to you order.";
+                response = "Beef have been added to your order.";
 
       break;
       case "19":
                 currentOrder.push({name: 'Eba', price: 2100});
-                response = "Eba have been added to you order.";
+                response = "Eba have been added to your order.";
       
       break;
       case "23":
                 currentOrder.push({name: 'Semo', price: 2100});
-                response = "Semo has been added to you order.";
+                response = "Semo has been added to your order.";
       
     break;
     case "25":
                 currentOrder.push({name: 'Fufu', price: 2100});
-                response = "Fufu has been added to you order.";
+                response = "Fufu has been added to your order.";
       break;
       case "23":
         currentOrder.push({name:"Coke", price: 450});

@@ -1,7 +1,0 @@
-
-    
-    
-    
-     <li> Press 35 for Bottle water (N1,200).</li>
-     <li> Press 40 for Stew (N500).</li>
-     <li> Press 42 for Moi-Moi (N1,250)</li>
